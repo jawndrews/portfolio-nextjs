@@ -68,14 +68,26 @@ const Navbar: React.FC = () => {
           </li>
           <li>
             <a
-              href="#portfolio"
+              href="#projects"
               className={`nav-link ${
-                pathname === "/#portfolio"
+                pathname === "/#projects"
                   ? "font-bold"
                   : "text-gray-700 hover:text-gray-900"
               } p-1 block md:inline-block`}
             >
-              Portfolio
+              Projects
+            </a>
+          </li>
+          <li>
+            <a
+              href="#resume"
+              className={`nav-link ${
+                pathname === "/#resume"
+                  ? "font-bold"
+                  : "text-gray-700 hover:text-gray-900"
+              } p-1 block md:inline-block`}
+            >
+              Resume
             </a>
           </li>
           <li>
