@@ -1,5 +1,5 @@
 import React from "react";
-import { FlipWords } from "./flip-words";
+import { FlipWords } from "./ui/flip-words";
 
 const Hero = () => {
   const words = ["developer", "designer", "student"];
